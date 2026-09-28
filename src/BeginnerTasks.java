@@ -199,32 +199,6 @@ public class BeginnerTasks {
         System.out.println(min);*/
 
 
-        //14. Massivdə ən böyük ikinci elementi tapın.
 
-        int[] arr = {550, 8, -1, 23000, 1};//
-
-        int max = arr[0];
-        int min = arr[0];
-        int secondMax=arr[0];
-
-
-        for (int i = 0; i < arr.length; i++) {
-             secondMax=arr[i];
-
-
-            if (arr[i] > max) {
-                max = arr[i];
-            }
-            if (arr[i] < min) {
-                min = arr[i];
-            }
-
-            if(secondMax<max && secondMax>min){
-                secondMax=arr[i];
-            }
-
-
-        }
-        System.out.println(secondMax);
     }
 }
