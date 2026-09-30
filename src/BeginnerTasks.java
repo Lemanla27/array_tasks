@@ -3,10 +3,6 @@ import java.util.Scanner;
 
 public class BeginnerTasks {
     static void main() {
-        /*
-13. Massivin elementlərini artan qaydada sıralayın (sadə bubble sort istifadə edərək).
-14. Massivdə ən böyük ikinci elementi tapın.
-         */
 
 
         // 1. İstifadəçidən 10 tam ədəd daxil edərək massiv yaradın və ekrana çap edin.
@@ -199,6 +195,40 @@ public class BeginnerTasks {
         System.out.println(min);*/
 
 
+        //13.Massivin elementlərini artan qaydada sıralayın (sadə bubble sort istifadə edərək).
 
+      /*  int[] arr = {2, 10, 8, 3, 7};
+        int length = arr.length;//5
+
+        for (int i = 0; i < length - 1; i++) {
+            for (int j =i+1; j < length; j++) {
+                if (arr[i] > arr[j]) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+
+
+        System.out.println(Arrays.toString(arr));*/
+
+
+        //14. Massivdə ən böyük ikinci elementi tapın.
+
+        /*int[] arr = {2, 10, 8, 3, 7};
+        int length = arr.length;
+
+        for (int i = 0; i < length - 1; i++) {
+            for (int j = i + 1; j < length; j++) {
+                if (arr[i] > arr[j]) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+        int secondMax = arr[length - 2];
+        System.out.println("ikinci en boyuk element: " + secondMax);*/
     }
 }
